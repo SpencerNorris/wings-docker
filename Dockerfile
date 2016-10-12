@@ -7,5 +7,5 @@ RUN mkdir -p /bitnami/tomcat/data
 WORKDIR /bitnami/tomcat/data
 RUN ["wget", "http://www.wings-workflows.org/sites/default/files/wings-portal-4.0-SNAPSHOT.war"]
 RUN chmod +x /configure.sh
-EXPOSE 80
+EXPOSE 5555
 #ENTRYPOINT /configure.sh
