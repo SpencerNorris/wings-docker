@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tomcat-users>
+    <role rolename="tomcat"/>
+    <role rolename="WingsAdmin"/>
+    <role rolename="WingsUser"/>
+    <user username="tomcat" password="tomcat" roles="tomcat"/>
+    <user name="admin" password="password" roles="WingsUser,WingsAdmin"/>
+</tomcat-users>
+
