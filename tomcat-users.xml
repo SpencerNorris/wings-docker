@@ -44,5 +44,4 @@
   <role rolename="WingsUser" />
   <role rolename="WingsAdmin" />
   <user name="adminUser" password="adminPassword" roles="WingsUser,WingsAdmin" />
-</tomcat
--users>
+</tomcat-users>
